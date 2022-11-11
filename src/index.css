@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
 * {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box ;
   font-family: "Nunito", sans-serif, 'Times New Roman', Times, serif !important;
@@ -10,8 +10,30 @@
 }
 
 body {
- background: beige;
- 
+ background: url(./assets/sincerely-media-HoEYgBL_Gcs-unsplash.jpg);
+ background-position: center;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+a {
+  color: black !important;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-right {
+  background: transparent;
+  color: white;
 }
 
 
