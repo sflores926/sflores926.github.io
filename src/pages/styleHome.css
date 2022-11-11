@@ -1,0 +1,24 @@
+.ben{
+    color: black;
+    margin: 150px;
+    /* background-color: red !important; */
+    animation: barry 2s 1;
+} 
+
+@keyframes barry{
+    0%{
+        /* background-color: red;  */
+        color: rgba(255, 0, 179, 0.739); 
+        width: 35vw;
+    }
+    50%{
+        /* background-color: green;  */
+        color: rgba(108, 26, 26, 0.698) 
+    }
+    100%{
+        /* background-color: blue; */
+        color: rgba(2, 2, 2, 0.59); 
+        width:54vw;
+        /* margin-left: 50vw; */
+    }
+}
