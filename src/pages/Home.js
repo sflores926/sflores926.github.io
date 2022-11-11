@@ -21,9 +21,9 @@ export default function Home() {
 
   return (
     <div className="ben">
-      <p className='p-3'>Hello</p>
-      <h1>I am Stephany Flores</h1>
-      <p className='p-3'>
+      <p className='p-3 fs-5'>Hello</p>
+      <h1 className='p-2'>I am Stephany Flores</h1>
+      <p className='p-3 fs-5'>
         Full stack web developer <FaHeart/>
       </p>
     </div>
