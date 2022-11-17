@@ -1,17 +1,38 @@
 import React from 'react';
+import me from '../assets/IMG_8474.jpg'
 
 export default function About() {
+  const styles={
+    taco: {
+     fontSize: '18px',
+     
+    },
+    cat: {
+      opacity: '0.4',
+     background: 'black',
+    }
+  }
+
+
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div class="container">
+      <div class="row">
+        <div class="col ">
+        <img src={me} width='350' heights='100' alt="Girl in a jacket"/>
+        </div>
+        <div class="col">
+        <h1 className="text-white">
+            Hi, I'm Stephany.
+            <br />I love to build amazing
+            apps.
+          </h1>
+          <div  style={styles.cat}>
+          <p  style={styles.taco} className="mb-8 text-white">
+            This has been a journey for me, it all began with a tik tok video. I started to learn a little here and there and realized I wanted to learm more. Then I decided to take a coding bootcamp at Rutger University to learn and gain the skills to make this a life long career. This is definitly a change from the career I started to pursue which was Nursing. I have come to see that with coding you can also make a change in peoples lives. You can help some or even millions of people out there. I hope to be able to join a team that is ike minded and can help me grow as a software engineer.
+          </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

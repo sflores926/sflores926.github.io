@@ -6,3 +6,8 @@
     font-size: 1.3rem;
 }
 
+.nav li a:hover{
+color:rgba(245, 243, 233, 0.987) !important;
+transition: all .2 ease-in !important;
+}
+

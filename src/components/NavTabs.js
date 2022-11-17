@@ -5,8 +5,8 @@ import "./NavTabsStyles.css"
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav  mb-3 p-3 justify-content-center concept concept-three" >
-      <li className="nav-item word">
+    <ul className="nav mb-3 p-3 justify-content-center concept concept-three" >
+      <li className=" nav-item ">
         <a
           href="/"
           onClick={() => handlePageChange('Home')}

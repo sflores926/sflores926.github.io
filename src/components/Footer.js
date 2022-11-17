@@ -18,7 +18,7 @@ const Footer = () => {
 
         },
         icon: {
-            paddingRight: "10px",
+            paddingRight: "20px",
             
             
 
