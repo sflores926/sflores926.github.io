@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbc1716c.css",
-    "main.js": "/static/js/main.27bd4e7c.js",
-    "static/media/sincerely-media-HoEYgBL_Gcs-unsplash.jpg": "/static/media/sincerely-media-HoEYgBL_Gcs-unsplash.a85792f99e8464913764.jpg",
+    "main.css": "/static/css/main.620e9e9d.css",
+    "main.js": "/static/js/main.bb80d833.js",
+    "static/media/kevin-bhagat-zNRITe8NPqY-unsplash.jpg": "/static/media/kevin-bhagat-zNRITe8NPqY-unsplash.8e42d966e9631beabdea.jpg",
+    "static/media/IMG_8474.jpg": "/static/media/IMG_8474.ea85ed431ab4aff345e5.jpg",
     "index.html": "/index.html",
-    "main.fbc1716c.css.map": "/static/css/main.fbc1716c.css.map",
-    "main.27bd4e7c.js.map": "/static/js/main.27bd4e7c.js.map"
+    "main.620e9e9d.css.map": "/static/css/main.620e9e9d.css.map",
+    "main.bb80d833.js.map": "/static/js/main.bb80d833.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc1716c.css",
-    "static/js/main.27bd4e7c.js"
+    "static/css/main.620e9e9d.css",
+    "static/js/main.bb80d833.js"
   ]
 }
