@@ -1,3 +1,15 @@
+p {
+    font-size: 30px;
+    
+}
+
+h1 {
+ font-weight: bold
+}
+
+
+
+
 .ben{
     color: black;
     margin: 150px;
@@ -23,12 +35,6 @@
     }
    
 }
-
-p {
-    font-size: 20px;
-}
-
-
 
 .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */

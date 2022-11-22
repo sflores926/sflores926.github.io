@@ -18,7 +18,8 @@ export default function Home() {
     cat: {
       display:"flex",
       justifyContent: "center",
-      // width: "100vw",
+      padding: "15px",
+      
     },
     dog: {
       marginTop: "150px",
@@ -27,13 +28,13 @@ export default function Home() {
   }
 
   return (
-    <div className="intro" style={styles.dog}>
-      <div className=''>
-        <p className='p-3'>Hello</p>
+    <div className="introBox" style={styles.dog}>
+      <div className='introWords'>
+        <p className='p-2'>Hello</p>
         <h1 className='p-2'>I am Stephany Flores,</h1>
         {/* <p className='p-3'> A full stack web developer located in the East Coast <FaHeart /></p> */}
         <div style={styles.cat}>
-        <Typewriter
+        <Typewriter 
           options={{
             strings: ['A full stack web developer located in New Jersey', 'Cant wait to work with you'],
             autoStart: true,
