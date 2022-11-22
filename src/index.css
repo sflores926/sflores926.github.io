@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap'); */
 
 * {
   margin: 0 ;
   padding: 0;
   box-sizing: border-box ;
-  font-family: "Nunito", sans-serif, 'Times New Roman', Times, serif !important;
+  font-family: 'Courier New', Courier, monospace, sans-serif, 'Times New Roman', Times, serif !important;
 
 
 }
 
 body {
- background: url(./assets/kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+ background: url(./assets/alisa-anton-TFB-yM97hGg-unsplash.jpg);
  background-position: center;
  background-size: 100%;
  background-repeat: no-repeat;
@@ -19,7 +22,7 @@ body {
 }
 
 a {
-  color: black !important;
+  color: rgb(249, 248, 248) !important;
 }
 
 h1,

@@ -1,13 +1,13 @@
 import React from 'react';
 import "./NavTabsStyles.css"
-
+import Pdf from '../assets/Copy of Stephany Flores Resume.pdf'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
-      <ul className="nav mb-3 p-3 justify-content-center concept concept-three" >
+      <ul className="nav mb-3 p-3 justify-content-end concept concept-three" >
         <li className=" nav-item">
           <a
             href="/"
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link '}
           >
-            Home
+            HOME
           </a>
         </li>
         <li className="nav-item">
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
-            About
+            ABOUT
           </a>
         </li>
         <li className="nav-item">
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
-            Portfolio
+            PORTFOLIO
           </a>
         </li>
         <li className="nav-item">
@@ -46,10 +46,12 @@ function NavTabs({ currentPage, handlePageChange }) {
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
           >
-            Contact
+            CONTACT
           </a>
         </li>
+        <li className='nav-item'><a class="nav-link" href={Pdf}>Resume</a></li>
       </ul>
+      
 
       {/* <Link to="/">
         <h1>Stephany</h1>
