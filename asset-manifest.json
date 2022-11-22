@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6349ee6.css",
-    "main.js": "/static/js/main.32d5f1c5.js",
+    "main.css": "/static/css/main.367113dd.css",
+    "main.js": "/static/js/main.a463766c.js",
     "static/media/IMG_8474.jpg": "/static/media/IMG_8474.ea85ed431ab4aff345e5.jpg",
     "static/media/alisa-anton-TFB-yM97hGg-unsplash.jpg": "/static/media/alisa-anton-TFB-yM97hGg-unsplash.f42307aa23a79ff557ac.jpg",
     "static/media/Copy of Stephany Flores Resume.pdf": "/static/media/Copy of Stephany Flores Resume.6dcf3603c41ac1da6fc4.pdf",
     "index.html": "/index.html",
-    "main.d6349ee6.css.map": "/static/css/main.d6349ee6.css.map",
-    "main.32d5f1c5.js.map": "/static/js/main.32d5f1c5.js.map"
+    "main.367113dd.css.map": "/static/css/main.367113dd.css.map",
+    "main.a463766c.js.map": "/static/js/main.a463766c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6349ee6.css",
-    "static/js/main.32d5f1c5.js"
+    "static/css/main.367113dd.css",
+    "static/js/main.a463766c.js"
   ]
 }
