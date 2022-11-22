@@ -19,6 +19,7 @@ export default function Home() {
       display:"flex",
       justifyContent: "center",
       padding: "15px",
+      color: "whitesmoke",
       
     },
     dog: {
