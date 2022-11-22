@@ -7,7 +7,8 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import NavTabs from './components/NavTabs';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 // import PortfolioContainer from "./components/PortfolioContainer";
 
@@ -51,6 +52,10 @@ function App() {
       </>
     );
   }
+
+
+    
+
 
 
 

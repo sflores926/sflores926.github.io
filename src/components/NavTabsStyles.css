@@ -4,11 +4,12 @@
 
 .nav li a {
     font-size: 1.3rem;
-    color:whitesmoke !important;
+    font-weight: bolder;
+    color:#000000 !important;
 }
 
 .nav li a:hover{
-color:rgba(38, 23, 76, 0.987) !important;
+color:rgba(255, 255, 255, 0.987) !important;
 transition: all .2 ease-in !important;
 }
 
