@@ -4,14 +4,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap'); */
 
 * {
-  margin: 0 ;
-  padding: 0;
-  box-sizing: border-box ;
+  margin: 0 !important;
+  width: 100vh !important;
+  height: 100vh !important;
+  /* padding: 0 !important; */
+  box-sizing: border-box !important;
   font-family: 'Courier New', Courier, monospace, sans-serif, 'Times New Roman', Times, serif !important;
   font-size: 20px;
 
 
 }
+
 
 body {
  background: url(./assets/alisa-anton-TFB-yM97hGg-unsplash.jpg);
@@ -20,6 +23,8 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
  position: relative;
+ width: 100vh;
+ height: 100vh;
 }
 
 a {

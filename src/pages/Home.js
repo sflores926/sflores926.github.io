@@ -23,7 +23,14 @@ export default function Home() {
       
     },
     dog: {
-      marginTop: "150px",
+      // marginTop: "150px",
+      padding: "150px",
+      position:'relative',
+      justifyContent: "center",
+      width: "100vw",
+      marginTop: "100px",
+
+
       
     }
   }

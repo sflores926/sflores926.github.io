@@ -1,10 +1,17 @@
 import React from 'react';
 import "./NavTabsStyles.css"
 import Pdf from '../assets/Copy of Stephany Flores Resume.pdf'
+import {Link} from 'react-router-dom';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
+  // const styles = {
+  //   taco: {
+  //     backgroundColor: "black",
+  //   }
+  // }
+
   return (
     <div className='header'>
       <ul className="nav mb-3 p-3 justify-content-end concept concept-three" >
@@ -20,14 +27,15 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
         <li className="nav-item">
-          <a
-            href="/about"
-            onClick={() => handlePageChange('About')}
+          <Link
+          to={{pathname: "/about"}}
+            // href="/about"
+            // onClick={() => handlePageChange('About')}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
             ABOUT
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
           <a
@@ -49,9 +57,9 @@ function NavTabs({ currentPage, handlePageChange }) {
             CONTACT
           </a>
         </li>
-        <li className='nav-item'><a class="nav-link" href={Pdf}>Resume</a></li>
+        <li className='nav-item ' ><a class="nav-link btn btn-outline-warning" href={Pdf}>Resume</a></li>
       </ul>
-      
+
 
       {/* <Link to="/">
         <h1>Stephany</h1>

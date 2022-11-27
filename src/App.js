@@ -8,7 +8,7 @@ import Portfolio from './pages/Portfolio';
 import NavTabs from './components/NavTabs';
 import Footer from './components/Footer';
 
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 
 // import PortfolioContainer from "./components/PortfolioContainer";
 
@@ -17,9 +17,9 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
     return (
-      <>
+      <HashRouter>
         {/* Wrap page elements in Router component to keep track of location state */}
-        <Router>
+        
           <div className="flex-column justify-flex-start min-100-vh">
             <NavTabs />
             <div className="container">
@@ -48,8 +48,8 @@ function App() {
             </div>
             <Footer />
           </div>
-        </Router>
-      </>
+        
+      </HashRouter>
     );
   }
 
