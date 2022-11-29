@@ -30,12 +30,12 @@ export default function About() {
 
   return (
     <div>
-      <div class="container" >
-        <div class="row" >
-          <div class="col ">
+      <div className="container" >
+        <div className="row" >
+          <div className="col">
             <img src={me} width='350' heights='100' alt="Girl in a jacket" />
           </div>
-          <div class="col text-center" style={styles.dog} >
+          <div className="col text-center" style={styles.dog} >
             <div card border-primary mb-3>
               <h2 className="text-white">
                 Hi, I'm Stephany, I love to build amazing
