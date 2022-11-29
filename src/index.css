@@ -17,10 +17,20 @@
 body {
  background: url(./assets/alisa-anton-TFB-yM97hGg-unsplash.jpg);
  background-position: center;
- background-size: 100%;
- background-repeat: no-repeat;
+ /* background-size: 300px, 100px, cover; */
+ /* background-repeat: no-repeat; */
+ /* background-blend-mode: screen; */
  background-size: cover;
- position: relative;
+ /* object-fit: cover; */
+ /* overflow: hidden; */
+ /* position: fixed;  */
+ /* resize: 'cover', // or 'stretch', */
+ /* flex: auto; */
+ /* margin: auto; */
+ /* width: 100%; */
+ /* position: absolute; */
+ /* top: 0; */
+ /* left: 0; */
 }
 
 a {

@@ -14,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
   return (
     <div className='header'>
-      <ul className="nav mb-3 p-3 justify-content-end concept concept-three" >
+      <ul className="nav mb-3 p-3 justify-content-end " >
         <li className=" nav-item">
           <a
             href="/"

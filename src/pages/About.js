@@ -36,8 +36,8 @@ export default function About() {
             <img src={me} width='350' heights='100' alt="Girl in a jacket" />
           </div>
           <div className="col text-center" style={styles.dog} >
-            <div card border-primary mb-3>
-              <h2 className="text-white">
+            <div>
+              <h2 className="text-white p-3">
                 Hi, I'm Stephany, I love to build amazing
                 apps.
               </h2>
