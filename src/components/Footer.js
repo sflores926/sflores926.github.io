@@ -14,7 +14,8 @@ const Footer = () => {
             display: "flex",
             justifyContent: "center",
             width: "100vw",
-            padding: "15px"
+            paddingTop: "20px",
+            paddingBottom:"20px"
 
         },
         icon: {

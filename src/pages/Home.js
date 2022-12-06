@@ -6,14 +6,15 @@ import Typewriter from "typewriter-effect";
 export default function Home() {
   const styles={
     taco: {
-      backgroundColor: "blue",
-      animation: "barry 2s infinite",
-      position: "relative",
-      marginTop: "100px",
+      // backgroundColor: "blue",
+      // animation: "barry 2s infinite",
+      // position: "relative",
+      // marginTop: "100px",
 
-      display:"flex",
-      justifyContent: "center",
-      width: "100vw"
+      // display:"flex",
+      // justifyContent: "center",
+      // width: "100vw"
+      paddingTop: "200px"
     },
     cat: {
       display:"flex",
@@ -24,11 +25,13 @@ export default function Home() {
     },
     dog: {
       // marginTop: "150px",
-      padding: "150px",
-      position:'relative',
+      // padding: "200px", 
+      // position:'relative',
       justifyContent: "center",
       width: "100vw",
-      marginTop: "100px",
+      // marginTop: "100px",
+      // border: 'solid white',
+      
 
 
       
@@ -36,10 +39,11 @@ export default function Home() {
   }
 
   return (
+    <div className="text-center" style={styles.taco}>
     <div className="introBox" style={styles.dog}>
       <div className='introWords'>
-        <p className='p-2'>Hello</p>
-        <h1 className='p-2'>I am Stephany Flores,</h1>
+        <p className='p-3'>Hello</p>
+        <h1 className='p-3 '>I am Stephany Flores,</h1>
         {/* <p className='p-3'> A full stack web developer located in the East Coast <FaHeart /></p> */}
         <div style={styles.cat}>
         <Typewriter 
@@ -56,19 +60,20 @@ export default function Home() {
       <div className='d-flex justify-content-center'>
         <div className='px-2'>
           <a
-            href="/portfolio"
+            href="#/portfolio"
             className=" mr-2 btn btn-info text-white">
             My Portfolio
           </a>
         </div>
         <div className='px-2'>
           <a
-            href="/contact"
+            href="#/contact"
             className=" btn btn-secondary text-white">
             Work With Me
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
