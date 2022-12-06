@@ -42,7 +42,7 @@ export default function Home() {
     <div className="text-center" style={styles.taco}>
     <div className="introBox" style={styles.dog}>
       <div className='introWords'>
-        <p className='p-3'>Hello</p>
+        <h2 className='p-3'>Hello</h2>
         <h1 className='p-3 '>I am Stephany Flores,</h1>
         {/* <p className='p-3'> A full stack web developer located in the East Coast <FaHeart /></p> */}
         <div style={styles.cat}>

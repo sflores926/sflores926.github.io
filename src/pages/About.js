@@ -38,13 +38,13 @@ export default function About() {
 
 
   return (
-    <div className='mb-5 pb-5'>
+    <div className='mb-4 pb-4'>
       <div className=" mb-2 pb-2 "  >
-        <div className="row " >
+        <div className="row" >
           <div className="col text-center p-5 m-5 " style={styles.taco}>
             <img src={me} width='350' heights='100' alt="Girl with brown hair and brown eyes" />
           </div>
-          <div className="blog col pt-4 mt-4 p-2 m-5 ">
+          <div className="blog col pt-5 mt-5 p-2 m-5 ">
             <h3 className="text-white text-center">
               Hi, I'm Stephany, I love to build amazing
               apps.
