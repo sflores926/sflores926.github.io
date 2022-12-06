@@ -39,7 +39,7 @@ export default function About() {
 
   return (
     <div className='mb-5 pb-5'>
-      <div className=" mb-3 pb-3 "  >
+      <div className=" mb-2 pb-2 "  >
         <div className="row " >
           <div className="col text-center p-5 m-5 " style={styles.taco}>
             <img src={me} width='350' heights='100' alt="Girl with brown hair and brown eyes" />
