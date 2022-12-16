@@ -12,7 +12,7 @@ import { FaGithub } from 'react-icons/fa';
 export default function Portfolio() {
   return (
     <div className='portfolio-wrapper m-4 pb-4'>
-      <div className='p-2 m-2'>
+      <div className='py-4 my-4'>
         <h1 className='text-uppercase text-center text-white'>Portfolio</h1>
         <h4 className='pb-4 text-center'>Apps I've built</h4>
         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>

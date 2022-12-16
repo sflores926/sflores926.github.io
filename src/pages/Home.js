@@ -39,6 +39,7 @@ export default function Home() {
   }
 
   return (
+    <div className='cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"'>
     <div className="text-center" style={styles.taco}>
     <div className="introBox" style={styles.dog}>
       <div className='introWords'>
@@ -73,6 +74,7 @@ export default function Home() {
           </a>
         </div>
       </div>
+    </div>
     </div>
     </div>
   );
