@@ -1,5 +1,3 @@
-// import Medley from './assets/Medley.gif';
-
 export const projects = [
   {
     title: "Medley",
