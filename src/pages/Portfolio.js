@@ -11,56 +11,66 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function Portfolio() {
   return (
-    <div className='portfolio-wrapper'>
-      <div className='container'>
-        <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
-        <div className='image-box-wrapper row row-cols-auto justify-content-center'>
-          <div className='portfolio-image-box'>
-            <figure>
-              <a href='https://radiant-bayou-27595.herokuapp.com/' target={'_blank'}>
-                <img className='img-fluid img-thumbnail' width={'75%'} src={google} alt='book_look project' />
-                <figcaption className='text-center'>Book Look <a href="https://github.com/sflores926/Book-Search-Engine" target={'_blank'}><FaGithub id="portfolio-github" className='github-icon' size={23} /></a></figcaption>
+    <div className='portfolio-wrapper m-4 pb-4'>
+      <div className='p-2 m-2'>
+        <h1 className='text-uppercase text-center text-white'>Portfolio</h1>
+        <h4 className='pb-4 text-center'>Apps I've built</h4>
+        <div className='row p-3'>
+          <div className='col p-2' >
+            <figure className='p-3'>
+              <a href='https://radiant-bayou-27595.herokuapp.com/'>
+                <h5 className='text-white text-center'>Book Search Engine</h5>
+                <img className='img-fluid img-thumbnail' src={google} alt='book_look project' />
               </a>
+              <figcaption className='text-center text-light'>MERN stack <a href="https://github.com/sflores926/Book-Search-Engine"><FaGithub id="portfolio-github" className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
-          <div className='portfolio-image-box'>
-            <figure>
-              <a href='https://sflores926.github.io/Work-Day-Scheduler/' target={'_blank'}>
-                <img className='img-fluid img-thumbnail' width={'75%'} src={workScheduler} alt='scheduler project' />
-                <figcaption className='text-center'>Work Day Scheduler <a href="https://github.com/sflores926/Work-Day-Scheduler" target={'_blank'}><FaGithub className='github-icon' size={23} /></a></figcaption>
+          <div className='portfolio-image-box col p-2'>
+            <figure className='p-3'>
+              <a href='https://sflores926.github.io/Work-Day-Scheduler/'>
+                <h5 className='text-white text-center'>Work Day Scheduler</h5>
+                <img className='img-fluid img-thumbnail' src={workScheduler} alt='scheduler project' />
               </a>
+              <figcaption className='text-center text-light'>Third Party APIs <a href="https://github.com/sflores926/Work-Day-Scheduler"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
-          <div className='portfolio-image-box'>
-            <figure>
-              <a href='https://medley.herokuapp.com/' target={'_blank'}>
-                <img className='img-fluid img-thumbnail' width={'75%'} src={medley} alt='medley project' />
-                <figcaption className='text-center'>Medley <a href="https://github.com/CoffeeEyes28/Medley" target={'_blank'}><FaGithub className='github-icon' size={23} /></a></figcaption>
+          <div className='portfolio-image-box col p-2'>
+            <figure className='p-3'>
+              <a href='https://medley.herokuapp.com/'>
+                <h5 className='text-white text-center'>Medley</h5>
+                <img className='img-fluid img-thumbnail' src={medley} alt='medley project' />
               </a>
+              <figcaption className='text-center text-white'>MERN Stack <a href="https://github.com/CoffeeEyes28/Medley" ><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
-          <div className='portfolio-image-box'>
-            <figure>
-              <a href='https://evening-brook-11484.herokuapp.com/' target={'_blank'}>
-                <img className='img-fluid img-thumbnail' width={'75%'} src={notetaker} alt='furrever project' />
-                <figcaption className='text-center'>Furrever <a href="https://github.com/sflores926/Note-Taker" target={'_blank'}><FaGithub className='github-icon' size={23} /></a></figcaption>
+        </div>
+        {/* beginning of new row */}
+        <div className='row p-3'>
+          <div className='portfolio-image-box col p-2'>
+            <figure className='p-3'>
+              <a href='https://evening-brook-11484.herokuapp.com/'>
+              <h5 className='text-white text-center'>NoteTaker</h5>
+                <img className='img-fluid img-thumbnail' src={notetaker} alt='notetaker' />
               </a>
+                <figcaption className='text-center text-light'>Express <a href="https://github.com/sflores926/Note-Taker"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
-          <div className='portfolio-image-box'>
-            <figure>
-              <a href='https://sflores926.github.io/Weather-Dashboard/' target={'_blank'}>
-                <img className='img-fluid img-thumbnail' width={'75%'} src={weatherDash} alt='furrever project' />
-                <figcaption className='text-center'>Furrever <a href="https://github.com/CoffeeEyes28/Furrever" target={'_blank'}><FaGithub className='github-icon' size={23} /></a></figcaption>
+          <div className='portfolio-image-box col p-2'>
+            <figure className='p-3'>
+              <a href='https://sflores926.github.io/Weather-Dashboard/'>
+              <h5 className='text-white text-center'>Weather Dashboard</h5>
+                <img className='img-fluid img-thumbnail' src={weatherDash} alt='weather Dashboard' />
               </a>
+                <figcaption className='text-center text-light'>Server Side APIs <a href="https://github.com/sflores926/Weather-Dashboard"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
-          <div className='portfolio-image-box'>
-            <figure>
-              <a href='https://enigmatic-gorge-61389.herokuapp.com/ ' target={'_blank'}>
-                <img className='img-fluid img-thumbnail' width={'75%'} src={furrever} alt='furrever project' />
-                <figcaption className='text-center'>Furrever <a href="https://github.com/CoffeeEyes28/Furrever" target={'_blank'}><FaGithub className='github-icon' size={23} /></a></figcaption>
+          <div className='portfolio-image-box col p-2'>
+            <figure className='p-3'>
+              <a href='https://enigmatic-gorge-61389.herokuapp.com/ '>
+              <h5 className='text-white text-center'>Furrever</h5>
+                <img className='img-fluid img-thumbnail' src={furrever} alt='furrever project' />
               </a>
+                <figcaption className='text-center text-light'>MVC <a href="https://github.com/CoffeeEyes28/Furrever"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
         </div>
