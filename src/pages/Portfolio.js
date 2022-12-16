@@ -15,7 +15,7 @@ export default function Portfolio() {
       <div className='p-2 m-2'>
         <h1 className='text-uppercase text-center text-white'>Portfolio</h1>
         <h4 className='pb-4 text-center'>Apps I've built</h4>
-        <div className='row p-3'>
+        <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
           <div className='col p-2' >
             <figure className='p-3'>
               <a href='https://radiant-bayou-27595.herokuapp.com/'>
@@ -43,34 +43,31 @@ export default function Portfolio() {
               <figcaption className='text-center text-white'>MERN Stack <a href="https://github.com/CoffeeEyes28/Medley" ><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
-        </div>
-        {/* beginning of new row */}
-        <div className='row p-3'>
           <div className='portfolio-image-box col p-2'>
             <figure className='p-3'>
               <a href='https://evening-brook-11484.herokuapp.com/'>
-              <h5 className='text-white text-center'>NoteTaker</h5>
+                <h5 className='text-white text-center'>NoteTaker</h5>
                 <img className='img-fluid img-thumbnail' src={notetaker} alt='notetaker' />
               </a>
-                <figcaption className='text-center text-light'>Express <a href="https://github.com/sflores926/Note-Taker"><FaGithub className='github-icon' size={23} /></a></figcaption>
+              <figcaption className='text-center text-light'>Express <a href="https://github.com/sflores926/Note-Taker"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
           <div className='portfolio-image-box col p-2'>
             <figure className='p-3'>
               <a href='https://sflores926.github.io/Weather-Dashboard/'>
-              <h5 className='text-white text-center'>Weather Dashboard</h5>
+                <h5 className='text-white text-center'>Weather Dashboard</h5>
                 <img className='img-fluid img-thumbnail' src={weatherDash} alt='weather Dashboard' />
               </a>
-                <figcaption className='text-center text-light'>Server Side APIs <a href="https://github.com/sflores926/Weather-Dashboard"><FaGithub className='github-icon' size={23} /></a></figcaption>
+              <figcaption className='text-center text-light'>Server Side APIs <a href="https://github.com/sflores926/Weather-Dashboard"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
           <div className='portfolio-image-box col p-2'>
             <figure className='p-3'>
               <a href='https://enigmatic-gorge-61389.herokuapp.com/ '>
-              <h5 className='text-white text-center'>Furrever</h5>
+                <h5 className='text-white text-center'>Furrever</h5>
                 <img className='img-fluid img-thumbnail' src={furrever} alt='furrever project' />
               </a>
-                <figcaption className='text-center text-light'>MVC <a href="https://github.com/CoffeeEyes28/Furrever"><FaGithub className='github-icon' size={23} /></a></figcaption>
+              <figcaption className='text-center text-light'>MVC <a href="https://github.com/CoffeeEyes28/Furrever"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
         </div>

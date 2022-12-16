@@ -29,8 +29,8 @@ const Footer = () => {
 
     return (
         <div style={styles.footer}>
-            <a  style={styles.icon} href="https://github.com/sflores926"><FaGithub /></a>
-            <a style={styles.icon} href="https://www.linkedin.com/in/stephany-m-flores/"><FaLinkedin /></a>
+            <a  style={styles.icon} href="https://github.com/sflores926"><FaGithub size={21} /></a>
+            <a style={styles.icon} href="https://www.linkedin.com/in/stephany-m-flores/"><FaLinkedin size={21} /></a>
         </div>
     )
 }
