@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6388fa74.css",
-    "main.js": "/static/js/main.1ad1150a.js",
+    "main.css": "/static/css/main.a73f42d4.css",
+    "main.js": "/static/js/main.927e14b5.js",
     "static/media/Medley.gif": "/static/media/Medley.345ea799bb0962a0c583.gif",
     "static/media/furrever.gif": "/static/media/furrever.078ba5ffb0e78f7ea39d.gif",
     "static/media/GoogleBookSearch.gif": "/static/media/GoogleBookSearch.44c6d845fe541f6c18b6.gif",
@@ -12,11 +12,11 @@
     "static/media/Stephany Flores Resume (2).pdf": "/static/media/Stephany Flores Resume (2).8419d113b97ac8516a8e.pdf",
     "static/media/StephanyFlores.jpeg": "/static/media/StephanyFlores.5b38be40df1cf53c2bc7.jpeg",
     "index.html": "/index.html",
-    "main.6388fa74.css.map": "/static/css/main.6388fa74.css.map",
-    "main.1ad1150a.js.map": "/static/js/main.1ad1150a.js.map"
+    "main.a73f42d4.css.map": "/static/css/main.a73f42d4.css.map",
+    "main.927e14b5.js.map": "/static/js/main.927e14b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6388fa74.css",
-    "static/js/main.1ad1150a.js"
+    "static/css/main.a73f42d4.css",
+    "static/js/main.927e14b5.js"
   ]
 }
