@@ -6,35 +6,18 @@ import Typewriter from "typewriter-effect";
 export default function Home() {
   const styles={
     taco: {
-      // backgroundColor: "blue",
-      // animation: "barry 2s infinite",
-      // position: "relative",
-      // marginTop: "100px",
-
-      // display:"flex",
-      // justifyContent: "center",
-      // width: "100vw"
       paddingTop: "200px"
     },
     cat: {
       display:"flex",
       justifyContent: "center",
       padding: "15px",
-      color: "whitesmoke",
+      color: "yellow",
       
     },
     dog: {
-      // marginTop: "150px",
-      // padding: "200px", 
-      // position:'relative',
       justifyContent: "center",
       width: "100vw",
-      // marginTop: "100px",
-      // border: 'solid white',
-      
-
-
-      
     }
   }
 
@@ -49,7 +32,7 @@ export default function Home() {
         <div style={styles.cat}>
         <Typewriter 
           options={{
-            strings: ['A full stack web developer located in New Jersey', 'Cant wait to work with you'],
+            strings: ['A full stack web developer located in New Jersey','Skills: JavaScipt Sql NoSql ReactJS Node.js Java HTML CSS','Cant wait to work with you'],
             autoStart: true,
             loop: true,
           }}
