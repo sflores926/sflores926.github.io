@@ -20,15 +20,15 @@ export default function About() {
               <img src={me} width='400' heights='100' alt="Girl with brown hair and brown eyes" />
             </div>
           </div>
-          <div className="blog col p-2 m-2">
-            <h3 className="text-white text-center">
+          <div className="bio col p-2 m-2">
+            <h3 className="text-warning text-center">
               Hi, I'm Stephany, I love to build amazing
               apps.
             </h3>
             <br></br>
-            <div className='bio'>
+            <div className=''>
               <p className="text-white" style={styles.dog}>
-                This has been a journey for me, it all began with a tik tok video. I started to learn a little here and there and realized I wanted to learn more. Then I decided to take a coding bootcamp at Rutgers University to learn and gain the skills to make this a life long career.This is definitely a change from the career I started to pursue which was Nursing. I have come to see that with coding you can also make a change in peoples lives. You can help some or even millions of people out there. There have been challenges and when you can figure it out the feeling is like no other. The great thing about this is the challenge and the non stop growing and learning. I hope to be able to join a team that is like minded and can help me grow as a software engineer.
+              I am a recent graduate of a full stack flex development bootcamp and a proud mother of two. I have a passion for creating and building beautiful, functional websites and web applications. My bootcamp education gave me a strong foundation in HTML, CSS, JavaScript and various web development frameworks. I have a proven ability to learn quickly and am always eager to stay up-to-date with the latest web development trends and technologies. As a mom of two, I know the importance of time management and I am able to balance my work and personal life effectively. I am a problem solver and a team player, and I am dedicated to producing high-quality, user-friendly websites that meet the needs of both the client and the end-user. I am excited to start my career in web development and to continue learning and growing in this field.
               </p>
             </div>
           </div>
