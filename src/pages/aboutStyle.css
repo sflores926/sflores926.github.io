@@ -1,4 +1,12 @@
-.bio{
+.bio {
     background-color: rgba(0, 4, 7, 0.3);
+    border-radius: 10px;
+}
+
+.about-me {
+    background-color: rgba(0, 4, 7, 0.3);
+}
+
+.my-pic {
     border-radius: 10px;
 }

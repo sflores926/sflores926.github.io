@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import "./contactStyle.css";
 
 export default function Contact() {
 
@@ -18,7 +19,7 @@ export default function Contact() {
 
   return (
     <div className=' m-4 p-4'>
-      <div className='border border-warning m-2 p-2 pb-3 mb-3'>
+      <div className=' menu border border-warning m-2 p-2 pb-3 mb-3'>
         <h2 className='text-center text-info'>Let's Get in Touch</h2>
         <p className="text-center text-white w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I'll try to get back to you as soon as possible.</p>
         <div className="row">

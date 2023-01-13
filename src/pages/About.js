@@ -13,11 +13,11 @@ export default function About() {
 
   return (
     <div className='mb-4 pb-4'>
-      <div className=" mb-4 pb-4 "  >
+      <div className="about-me my-4 py-4 "  >
         <div className="row p-4" style={styles.taco}>
           <div className="col text-center">
             <div>
-              <img src={me} width='400' heights='100' alt="Girl with brown hair and brown eyes" />
+              <img className='my-pic' src={me} width='400' heights='100' alt="Girl with brown hair and brown eyes" />
             </div>
           </div>
           <div className="bio col p-2 m-2">
