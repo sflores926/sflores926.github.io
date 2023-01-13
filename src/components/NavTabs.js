@@ -1,6 +1,6 @@
 import React from 'react';
 import "./NavTabsStyles.css"
-import Pdf from '../assets/Copy of Stephany Flores Resume.pdf'
+import Pdf from '../assets/Stephany Flores Resume (2).pdf'
 import { Link } from 'react-router-dom';
 
 

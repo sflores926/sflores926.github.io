@@ -1,10 +1,10 @@
 import React from 'react';
-import weatherDash from '../assets/WeatherDashboard.gif';
 import medley from '../assets/Medley.gif';
 import notetaker from '../assets/NoteTaker.gif';
 import google from '../assets/GoogleBookSearch.gif';
 import furrever from '../assets/furrever.gif';
 import workScheduler from '../assets/WorkDayScheduler.gif';
+import techNews from '../assets/Homepage - Just Tech News.gif'
 import { FaGithub } from 'react-icons/fa';
 
 
@@ -54,11 +54,11 @@ export default function Portfolio() {
           </div>
           <div className='portfolio-image-box col p-2'>
             <figure className='p-3'>
-              <a href='https://sflores926.github.io/Weather-Dashboard/'>
-                <h5 className='text-white text-center'>Weather Dashboard</h5>
-                <img className='img-fluid img-thumbnail' src={weatherDash} alt='weather Dashboard' />
+              <a href='https://tech-news-java-api-0.herokuapp.com/'>
+                <h5 className='text-white text-center'>Just Tech News</h5>
+                <img className='img-fluid img-thumbnail' src={techNews} alt=' Just Tech News' />
               </a>
-              <figcaption className='text-center text-light'>Server Side APIs <a href="https://github.com/sflores926/Weather-Dashboard"><FaGithub className='github-icon' size={23} /></a></figcaption>
+              <figcaption className='text-center text-light'>Java <a href="https://github.com/sflores926/tech-news-java-api"><FaGithub className='github-icon' size={23} /></a></figcaption>
             </figure>
           </div>
           <div className='portfolio-image-box col p-2'>
